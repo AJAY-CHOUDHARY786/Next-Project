@@ -1,0 +1,240 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.12);
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+}
+.hamburgerIcon li{
+  font-size: 16px!important;
+font-weight: 700
+}
+
+.menuContainer li {
+  font-size: 16px!important;
+  color: #533190;
+  font-weight: 700
+  
+}
+.logoContainer{
+  display: flex;
+}
+.lists{
+  padding: 0rem 1rem 0rem;
+}
+#courses{
+  
+  border-radius: 8px;
+  border-color: #533190 !important;
+  border: 1px solid #533190;
+  font-weight: 700;
+    font-size: 16px !important;
+    padding: 10px 10px 12px 14px !important;
+    color: #533190 !important;
+
+}
+#courses:focus{
+  border-color: #533190 !important;
+  background: #ffffff !important;
+  border: 1px solid #533190;
+  color: #533190 !important;
+}
+.logoContainer{
+  padding: 0rem 1rem 0rem;
+}
+.logo {
+  margin-right: 20px;
+  width: 100%;
+  height: 30px;
+}
+
+.menu {
+  display: flex;
+}
+
+.loginRegister {
+  margin-left: auto;
+}
+
+.mobileMenu {
+  display: none; /* Hide by default on larger screens */
+  cursor: pointer;
+}
+
+.mobileMenuContent {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  
+}
+.headersList{
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+/* Add your hamburger icon styles */
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 5px 0;
+}
+.authButton{
+      border: none;
+    padding: 9px 10px;
+    gap: 10px;
+    width: 106px;
+    height: 35px;
+    background: #533190;
+    color: #fff;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px !important;
+    line-height: 19px;
+}
+.hamburgerIcon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  padding: 10px;
+}
+/* Media query for mobile */
+@media (max-width: 1024px) {
+  .mobcallus{
+    font-size: 16px!important;
+    margin-left: 10px;
+  font-weight: 700
+
+  }
+  .menu {
+    display: none;
+  }
+  .menuContainer{
+    display: none;
+  }
+  .mobileMenu {
+    display: block;
+  }
+  .hamburgerIconMenu{
+    display: flex;
+  }
+  .header {
+   
+    align-items: center;
+}
+
+
+
+/* styles/ImageGallery.module.css */
+
+.imageList {
+  position: relative;
+}
+
+
+
+.imageList {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw !important;
+  /* height: 100vh !important; */
+  display: flex;
+  align-items: center;
+  z-index: 300;
+  opacity: 1;
+  transition:all 0.25s ease-in-out;
+  /* ******************* */
+ 
+  overflow-x: hidden;
+  background: #FFFFFF;
+  z-index: 300;
+  transition: 0.25s ease-in-out;
+  color: #533190;
+  text-decoration: none!important;
+}
+.imageSubList{
+  transition: all 10s ease-in-out !important;
+  
+ height: 100vh;
+  width: 100%;
+}
+.mob-call-us {
+  width: 225px;
+  height: 40px;
+  background: #F8F8F8;
+  border-radius: 8px;
+}
+.imageList ul {
+ 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+.imageList li {
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  padding: 20px 20px;
+}
+.mainmenucloseiconright{
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25); 
+}
+.rightImg{
+  width: 6% !important;
+}
+/* ******************** */
+
+.moremenu{
+  position: absolute;
+  background: #ffffff;
+  left: -100%;
+  top: 0px;
+ width: 100%;
+  box-shadow: -1px 0px 3px #4d4d4d;
+  transition: all 0.25s ease-in-out;
+}
+.moremenuLeft0{
+  position: absolute;
+  background: #ffffff;
+  left: -0%;
+  top: 0px;
+ width: 100%;
+ height: 100vh;
+  box-shadow: -1px 0px 3px #4d4d4d;
+  transition: all 0.25s ease-in-out;
+}
+.hamburgerIcon {
+  display: flex;
+}
+}
+
+/* ******************** */
+
+
+/* .hamburgerIcon span {
+  height: 3px;
+  width: 25px;
+  background-color: rgb(0, 0, 0);
+  margin: 5px 0;
+  display: block;
+} */
+
+/* ... existing styles ... */
+
+/* Updated Responsive Styles */

@@ -1,0 +1,308 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.Admincontainer{
+    display: flex;
+   
+}
+.Span-logo {
+    width: 14%;
+    border: 2px solid;
+    border-radius: 90%;
+    margin: 12px 0px 10px 0px;
+    height: 42px;
+    
+}
+.logo{
+   background-color: white;
+    text-decoration: none;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 90%;
+   
+}
+
+.Link-herf{
+    padding: 16px 0px 0px 0px;
+    width: 86%;
+}
+
+.Link-her{
+    margin: 0px;
+    padding: 10px 0px 11px 54px;
+    width: 100%;
+}
+hr{
+    margin: 0px;
+}
+.Coachify-head{
+    display: flex;
+    margin-left: 10px;
+}
+.Admincontainer{
+    text-align: center;
+}
+.admin-container{
+
+    width: 20%;
+    background-color:#343a40;
+    color: white; 
+    margin-right: 1rem;
+
+}
+.Adminpara{
+    margin: 0px;
+    padding: 20px 10px;
+    text-shadow: none;
+    font-size: 1rem;
+    font-weight: 600;
+   border: 2px solid gainsboro;
+   color: #007bff;
+}
+.Adminpara:hover{
+    background-color: white !important;
+    border: 2px solid gainsboro;
+
+}
+.Adminpar{
+    margin: 6px 10px 0px 10px;
+    color: white; 
+    text-align: start;
+}
+.admin-head-1{
+    height: 50px;
+    background-color: white;
+}
+.admincontainer-1{
+    background-color:  white;
+    width: 100%;
+    margin: 20px;
+   
+}
+.admincontainer-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    
+}
+.Admin-nav{
+    align-items: center;
+    display: inline-flex;
+    
+}
+.Admin-nav h1{
+    background-color: white;
+    color: #533190;
+    font-weight: bold;
+}
+.Admin-nav h3{
+    padding: 30px;
+}
+.Admin-nav p{
+    padding: 20px;
+    margin: 0px;
+}
+
+.Admin-button a{
+    background-color:  rgb(14, 189, 58);
+    padding: 20px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* LoginForm.module.css */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+.form-container {
+ 
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex ;
+   
+    
+}
+
+.form-container-1 form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.form-container-1 label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-container-1 input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+/* button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+} */
+
+/* button:hover {
+    background-color: #45a049;
+} */
+
+.formf-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 73% ;
+}
+.formf-container {
+    width: 73%;
+}
+.Nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+.nav-1 {
+   
+    
+    padding: 15px;
+    text-align: center;
+}
+
+.nav-1 a {
+   
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+.nav-1 a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.Admin-button{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+ }
+ .form-container-1{
+    width: 70%;
+  
+ }
+ .form-one{
+    margin: auto auto;
+    width: 70%;
+ }
+ #details{
+    width: 100%;
+ }
+ .nav-1 p{
+       margin: 0px;
+       color: #007bff;
+       text-decoration: none;
+ }
+.form-container-2{
+    width: 28%;
+margin: 0px auto;
+}
+ .form-container-2 button{
+    width: 100%;
+    margin: 20px 6px;
+    padding: 10px;
+    color: white;
+    font-size: 1rem;
+    border: none;
+ }
+ #saveBtn{
+    background-color: #28a745;
+ }
+ #deleteBtn{
+    background-color: #dc3545 ;
+ }
+ #redirectBtn{
+    background-color:  #17a2b8;
+ }
+
+ /* ********************************************************  cat api css */
+
+ .Catapiconatainer{
+    display: flex;
+ }
+ .Tablecontainer a:hover{
+   background-color: white;
+   
+ }
+ table tbody tr{
+    background-color: rgb(145, 0, 0) !important; 
+ }
+ td{
+  padding: 0px;
+ }
+
+ /* *************************************************************navigation */
+ .Nav-container{
+    background-color: white;
+ }
+tr {
+border: none !important;
+}
+ @media only screen and (max-width: 1024px){
+   
+    .tabcont{
+        width: 100% !important;
+    }
+   
+    .Admin-button a {
+      
+        padding: 8px;
+       
+    }
+    .Admin-button {
+       
+        margin: 12px;
+    }
+    
+ }
+/* **********************************************************sidebar */
+
+
+/* styles/Sidebar.module.css */
+
+
+  /* styles/admin.css */
